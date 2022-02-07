@@ -1,10 +1,8 @@
 {
   "devDependencies": {
-    "del-cli": "^4.0.1",
     "parcel": "^2.2.1"
   },
   "scripts": {
-    "build": "npm run clean && parcel build votekit/src/ui/addSandboxes.js",
-    "clean": "del-cli \"dist/**\" \"!dist/.git\""
+    "build": "parcel build votekit/src/ui/addSandboxes.js"
   }
 }
