@@ -58,3 +58,4 @@ exclude:
   - dev/
   - package.json
   - package-lock.json
+  - scripts
