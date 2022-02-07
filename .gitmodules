@@ -1,3 +1,6 @@
 [submodule "votekit"]
 	path = votekit
 	url = https://github.com/paretoman/votekit
+[submodule "dist"]
+	path = dist
+	url = https://github.com/paretoman/votekit-example.git

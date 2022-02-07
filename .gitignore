@@ -4,3 +4,6 @@ _site
 .jekyll-metadata
 vendor
 dev
+.parcel-cache
+node_modules
+package-lock.json

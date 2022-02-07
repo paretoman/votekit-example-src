@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "parcel": "^2.2.1",
+    "rimraf": "^3.0.2",
+    "del-cli": "^4.0.1"
+  },
+  "scripts": {
+    "build": "npm run clean && parcel build _site/*.html --public-url ./ --dist-dir dist && parcel build _site/about/*.html --public-url ./ --dist-dir dist/about",
+    "clean": "del-cli \"dist/**\" \"!dist/.git\""
+  }
+}
