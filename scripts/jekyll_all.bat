@@ -1,2 +1,3 @@
-bundle exec jekyll build --config _config.yml,_config_local.yml
-bundle exec jekyll build
+call scripts\jekyll_local_src.bat
+call scripts\jekyll_local_dist.bat
+call scripts\jekyll_production.bat

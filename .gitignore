@@ -7,4 +7,5 @@ dev
 node_modules
 package-lock.json
 Gemfile.lock
-_site_local
+_site_local_src
+_site_local_dist

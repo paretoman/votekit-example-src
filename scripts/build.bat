@@ -1,2 +1,2 @@
 call npm run build
-bundle exec jekyll build
+call scripts\jekyll_production.bat
