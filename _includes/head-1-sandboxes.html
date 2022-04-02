@@ -7,13 +7,15 @@
   {%- feed_meta -%}
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
     {%- include google-analytics.html -%}
-  {%- endif -%}
+  {%- endif %}
+  <link href="./css/nav.css" rel="stylesheet">
+  {%- if jekyll.environment == 'production' %}
+  <link href="./lib/votekit/dist/ui/sandbox.css" rel="stylesheet">
+  <link href="./lib/votekit/dist/menu/button.css" rel="stylesheet">
+  <script type="module" src="./lib/votekit/dist/addSandboxes.js"></script>
+  {%- else %}
   <link href="./votekit/src/ui/sandbox.css" rel="stylesheet">
   <link href="./votekit/src/menu/button.css" rel="stylesheet">
-  <link href="./css/nav.css" rel="stylesheet">
-  {% if jekyll.environment == 'production' -%}
-  <script type="module" src="./lib/votekit/dist/addSandboxes.js"></script>
-  {% else -%}
   <script type="module" src="./votekit/src/ui/addSandboxes.js"></script>
-  {% endif -%}
+  {%- endif %}
 </head>
