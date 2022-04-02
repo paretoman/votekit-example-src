@@ -3,6 +3,6 @@
     "parcel": "^2.2.1"
   },
   "scripts": {
-    "build": "parcel build votekit/src/ui/addSandboxes.js"
+    "build": "parcel build votekit/src/ui/addSandboxes.js --dist-dir lib/votekit/dist"
   }
 }
