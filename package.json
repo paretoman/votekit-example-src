@@ -1,8 +1,11 @@
 {
   "devDependencies": {
+    "copyfiles": "^2.4.1",
     "parcel": "^2.2.1"
   },
   "scripts": {
-    "build": "parcel build votekit/src/ui/addSandboxes.js --dist-dir lib/votekit/dist"
+    "build": "npm run parcel-build && npm run copy",
+    "parcel-build": "parcel build votekit/src/ui/addSandboxes.js --dist-dir lib/votekit/dist",
+    "copy": "copyfiles -u 2 \"votekit/src/**/*.{css,html}\" \"lib/votekit/dist/\""
   }
 }
