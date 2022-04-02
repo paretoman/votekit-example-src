@@ -34,6 +34,7 @@ minima:
     youtube_channel: UCrwpT8YjxePjH0RxSCwbTlQ
     youtube_channel_name: Paretoman
 thumbnail: "/img/VoteKit_Thumbnail.png"
+google_analytics: UA-172540609-1
 
 # Build settings
 markdown: kramdown
