@@ -1,7 +1,6 @@
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
-vendor
 dev
 .parcel-cache
 node_modules
