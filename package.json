@@ -5,7 +5,7 @@
     "rimraf": "^3.0.2"
   },
   "scripts": {
-    "build": "npm run clean && npm run parcel-build && npm run copy1 && npm run copy2",
+    "build": "npm run parcel-build && npm run copy1 && npm run copy2",
     "clean": "rimraf lib/votekit/dist",
     "parcel-build": "parcel build votekit/src/ui/addSandboxes.js --dist-dir lib/votekit/dist/src/ui",
     "copy1": "copyfiles -u 2 \"votekit/src/**/*.{css,html}\" \"lib/votekit/dist/src/\"",
