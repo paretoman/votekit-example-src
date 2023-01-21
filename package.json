@@ -7,7 +7,7 @@
   "scripts": {
     "build": "npm run parcel-build && npm run copy1 && npm run copy2",
     "clean": "rimraf lib/votekit/dist",
-    "parcel-build": "parcel build votekit/src/ui/addSandboxes.js --dist-dir lib/votekit/dist/src/ui",
+    "parcel-build": "parcel build votekit/src/sandbox/addSandboxes.js --dist-dir lib/votekit/dist/src/sandbox",
     "copy1": "copyfiles -u 2 \"votekit/src/**/*.{css,html}\" \"lib/votekit/dist/src/\"",
     "copy2": "copyfiles -u 2 \"votekit/test/**/*.*\" \"lib/votekit/dist/test/\""
   }
