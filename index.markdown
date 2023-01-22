@@ -4,4 +4,10 @@
 
 layout: home-1-sandboxes
 ---
+
+[Tutorial](./votekit/tutorial/)
+[Test](./votekit/test/)
+[Github](https://github.com/paretoman/votekit)
+[EditCodeSandbox](https://codesandbox.io/s/github/paretoman/votekit)
+
 {% include sandbox.html sandboxurl='s/' %}
